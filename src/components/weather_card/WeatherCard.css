@@ -1,0 +1,53 @@
+h1 {
+    font-size: 50px;
+    line-height: 61px;
+}
+
+h2 {
+    font-size: 37px;
+    line-height: 45px;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 37px;
+}
+
+p {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    font-size: 28px;
+    line-height: 34px;
+    text-transform: uppercase;
+    margin: 0 0 16px;
+    max-width: 100%;
+    list-style-type: none;
+}
+
+.li-fix {
+    font-weight: 500;
+    text-transform: lowercase;
+    float: right;
+}
+
+@media screen and (max-width: 700px) {
+    ul {
+        margin: 22px 10px
+    }
+
+    ul li {
+        font-size: 22px;
+    }
+    .li-fix {
+        margin-right: 10px;
+    }
+}

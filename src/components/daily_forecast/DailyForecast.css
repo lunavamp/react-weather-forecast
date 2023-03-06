@@ -1,0 +1,66 @@
+.daily-forecast {
+  display: flex;
+  justify-content: center;
+  gap: 0.1rem;
+  margin-top: 1rem;
+}
+
+.daily-forecast-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 103px;
+  font: 400 1.2rem/1.2 'Montserrat', sans-serif;
+  background: #272E37;
+  box-shadow: 1px 2px 4px #222831;
+  border-radius: 10px;
+  padding: 14px 24px 20px;
+  margin: 90px 0 70px 0;
+}
+
+.daily-forecast-item:hover {
+  background: #FFFFFF;
+  color: #222831;
+  cursor: pointer;
+}
+
+.forecast-date {
+  margin: 14px 0 16px;
+}
+
+.forecast-icon {
+  font-size: 2.7rem;
+}
+
+.forecast-temperature {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.forecast-condition {
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 700px) {
+  .daily-forecast-item {
+    margin: 0;
+    box-shadow: none;
+    padding: 14px 20px 20px;
+  }
+
+  .forecast-temperature, 
+  .forecast-date {
+    font-size: 14px;
+  }
+
+  .daily-forecast-item:hover {
+    background: #313946ae;
+    color: #FFFFFF;
+  }
+
+  .forecast-icon {
+    font-size: 2.2rem;
+  }
+
+}
+
